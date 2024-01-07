@@ -196,7 +196,7 @@ function nextQuestion(){
     music.pause();
     music.src = "8.mp3";
     music.loop = true;
-    music.currentTime = 1;
+    music.currentTime = 1.8;
     music.play();
   }
   if(qNum==24){
