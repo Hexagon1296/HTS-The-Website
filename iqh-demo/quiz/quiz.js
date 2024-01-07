@@ -194,9 +194,9 @@ function nextQuestion(){
   qNum++;
   if(qNum==20){
     music.pause();
-    music.src = "8.wav";
+    music.src = "8.mp3";
     music.loop = true;
-    music.currentTime = 0;
+    music.currentTime = 1;
     music.play();
   }
   if(qNum==24){
